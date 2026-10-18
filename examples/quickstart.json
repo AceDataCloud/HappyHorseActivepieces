@@ -1,0 +1,126 @@
+{
+  "name": "HappyHorse quickstart",
+  "type": "SHARED",
+  "summary": "",
+  "description": "",
+  "tags": [],
+  "blogUrl": "",
+  "metadata": {
+    "externalId": "happyhorse-quickstart-20261018"
+  },
+  "author": "Ace Data Cloud",
+  "categories": [],
+  "pieces": [
+    "@activepieces/piece-manual-trigger",
+    "@acedatacloud/piece-happyhorse"
+  ],
+  "flows": [
+    {
+      "displayName": "HappyHorse quickstart",
+      "trigger": {
+        "name": "trigger",
+        "valid": true,
+        "displayName": "Manual Trigger",
+        "nextAction": {
+          "name": "step_1",
+          "skip": false,
+          "type": "PIECE",
+          "valid": false,
+          "settings": {
+            "input": {
+              "auth": "",
+              "prompt": "A quiet sunrise over a mountain landscape.",
+              "model": "happyhorse-1.1-t2v",
+              "duration": 3,
+              "resolution": "720P",
+              "ratio": "16:9"
+            },
+            "pieceName": "@acedatacloud/piece-happyhorse",
+            "actionName": "happyhorse_generate_video",
+            "sampleData": {},
+            "pieceVersion": "0.1.0",
+            "propertySettings": {
+              "prompt": {
+                "type": "MANUAL"
+              },
+              "model": {
+                "type": "MANUAL"
+              },
+              "duration": {
+                "type": "MANUAL"
+              },
+              "resolution": {
+                "type": "MANUAL"
+              },
+              "ratio": {
+                "type": "MANUAL"
+              }
+            },
+            "errorHandlingOptions": {
+              "retryOnFailure": {
+                "value": false
+              },
+              "continueOnFailure": {
+                "value": false
+              }
+            }
+          },
+          "displayName": "Create HappyHorse task",
+          "lastUpdatedDate": "2026-10-12T00:00:00.000Z",
+          "nextAction": {
+            "name": "step_2",
+            "skip": false,
+            "type": "PIECE",
+            "valid": false,
+            "settings": {
+              "input": {
+                "auth": "",
+                "task_id": "{{step_1['output']['task_id']}}",
+                "wait_seconds": 0
+              },
+              "pieceName": "@acedatacloud/piece-happyhorse",
+              "actionName": "happyhorse_task_retrieve",
+              "sampleData": {},
+              "pieceVersion": "0.1.0",
+              "propertySettings": {
+                "task_id": {
+                  "type": "MANUAL"
+                },
+                "wait_seconds": {
+                  "type": "MANUAL"
+                }
+              },
+              "errorHandlingOptions": {
+                "retryOnFailure": {
+                  "value": false
+                },
+                "continueOnFailure": {
+                  "value": false
+                }
+              }
+            },
+            "displayName": "Get HappyHorse task",
+            "lastUpdatedDate": "2026-10-12T00:00:00.000Z"
+          }
+        },
+        "lastUpdatedDate": "2026-10-12T00:00:00.000Z",
+        "type": "PIECE_TRIGGER",
+        "settings": {
+          "propertySettings": {
+            "markdown": {
+              "type": "MANUAL"
+            }
+          },
+          "pieceName": "@activepieces/piece-manual-trigger",
+          "pieceVersion": "0.0.8",
+          "triggerName": "manual_trigger",
+          "input": {}
+        }
+      },
+      "valid": true,
+      "schemaVersion": "27",
+      "notes": []
+    }
+  ],
+  "status": "PUBLISHED"
+}

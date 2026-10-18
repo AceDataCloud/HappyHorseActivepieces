@@ -1,0 +1,11 @@
+{
+  "source_repo": "https://github.com/AceDataCloud/HappyHorseDify",
+  "source_sha": "ebcbfb0db4fa8261918055c2f286edd1f510dc7b",
+  "source_file": "tools/api_contracts.py",
+  "only_exposed_operations": [
+    "happyhorse_generate_video",
+    "happyhorse_task_retrieve"
+  ],
+  "read_on": "2026-10-18 Asia/Shanghai",
+  "live_creation_tested": false
+}
