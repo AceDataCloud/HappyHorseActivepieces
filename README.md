@@ -2,11 +2,11 @@
 
 Create HappyHorse videos with Ace Data Cloud, then query the **same task ID**. This is an independent Ace integration, not an official HappyHorse product. [中文指南](README.zh-CN.md)
 
-**Release state (2026-10-18):** source candidate `@acedatacloud/piece-happyhorse@0.1.0`. npm publication, full Activepieces installation and official shared-catalog listing are separate gates and are **not yet verified**. The official catalog target is a service-named entry **HappyHorse by Ace Data Cloud**. Do not assume a GitHub repository makes it searchable in the shared catalog.
+**Release state (2026-10-19):** [`@acedatacloud/piece-happyhorse@0.1.0`](https://www.npmjs.com/package/@acedatacloud/piece-happyhorse/v/0.1.0) is published with provenance. Its public registry artifact and clean npm installation were verified. All seven Ace Pieces, including HappyHorse, also passed registry installation and credential-free quickstart import in official CE 0.92.3 ([validation receipt](https://github.com/AceDataCloud/SunoActivepieces/actions/runs/39173846837)), using server APIs without keys or action execution. Shared-catalog acceptance is still pending: this package is not automatically searchable in every Activepieces instance.
 
-## 1. Install when the package is published
+## 1. Install the released package
 
-[Activepieces community publication guide](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community). For Activepieces CE 0.92.2+, a platform administrator uses **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry** and enters `@acedatacloud/piece-happyhorse` with the verified released version. Once installed, search **HappyHorse** in a flow, confirm **HappyHorse by Ace Data Cloud** and the Ace logo, then choose **Create HappyHorse task** or **Get HappyHorse task**.
+[Activepieces community publication guide](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community). For Activepieces CE 0.92.2+, a platform administrator uses **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry** and enters `@acedatacloud/piece-happyhorse` with version `0.1.0`. Once installed, search **HappyHorse** in a flow, confirm **HappyHorse by Ace Data Cloud** and the Ace logo, then choose **Create HappyHorse task** or **Get HappyHorse task**.
 
 ![Official Activepieces custom-piece installation dialog](docs/screenshots/install-piece.png)
 
