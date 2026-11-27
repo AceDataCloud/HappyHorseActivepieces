@@ -38,7 +38,7 @@
             "pieceName": "@acedatacloud/piece-happyhorse",
             "actionName": "happyhorse_generate_video",
             "sampleData": {},
-            "pieceVersion": "0.1.0",
+            "pieceVersion": "0.1.1",
             "propertySettings": {
               "prompt": {
                 "type": "MANUAL"
@@ -81,7 +81,7 @@
               "pieceName": "@acedatacloud/piece-happyhorse",
               "actionName": "happyhorse_task_retrieve",
               "sampleData": {},
-              "pieceVersion": "0.1.0",
+              "pieceVersion": "0.1.1",
               "propertySettings": {
                 "task_id": {
                   "type": "MANUAL"
