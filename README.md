@@ -1,4 +1,4 @@
-# HappyHorse by Ace Data Cloud for Activepieces
+# HappyHorse for Activepieces
 
 Create HappyHorse videos with Ace Data Cloud, then query the **same task ID**. This is an independent Ace integration, not an official HappyHorse product. [中文指南](README.zh-CN.md)
 
@@ -6,7 +6,7 @@ Create HappyHorse videos with Ace Data Cloud, then query the **same task ID**. T
 
 ## 1. Install the released package
 
-[Activepieces community publication guide](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community). For Activepieces CE 0.92.2+, a platform administrator uses **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry** and enters `@acedatacloud/piece-happyhorse` with version `0.1.2`. Once installed, search **HappyHorse** in a flow, confirm **HappyHorse by Ace Data Cloud** and the Ace logo, then choose **Create HappyHorse task** or **Get HappyHorse task**.
+[Activepieces community publication guide](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community). For Activepieces CE 0.92.2+, a platform administrator uses **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry** and enters `@acedatacloud/piece-happyhorse` with version `0.1.3`. Once installed, search **HappyHorse** in a flow, confirm **HappyHorse** and the Ace logo, then choose **Create HappyHorse task** or **Get HappyHorse task**.
 
 ![Official Activepieces custom-piece installation dialog](docs/screenshots/install-piece.png)
 

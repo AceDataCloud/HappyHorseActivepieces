@@ -1,4 +1,4 @@
-# HappyHorse by Ace Data Cloud：Activepieces 插件
+# HappyHorse：Activepieces 插件
 
 通过 Ace Data Cloud 创建 HappyHorse 视频，并按**同一任务 ID**查询。这是 Ace 提供的独立集成，不冒充 HappyHorse 官方产品。[English](README.md)
 
@@ -6,7 +6,7 @@
 
 ## 1. 官方安装入口与实例安装
 
-参照 [Activepieces 官方社区发布文档](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community)。CE 0.92.2+ 管理员进入 **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry**，输入包名与版本 `0.1.2`。安装后在流程搜索 **HappyHorse**，核对 **HappyHorse by Ace Data Cloud**、Ace Logo 和创建/查询两个动作。
+参照 [Activepieces 官方社区发布文档](https://www.activepieces.com/docs/build-pieces/sharing-pieces/community)。CE 0.92.2+ 管理员进入 **Platform Admin → Catalogue → Pieces → Install Piece → NPM Registry**，输入包名与版本 `0.1.3`。安装后在流程搜索 **HappyHorse**，核对 **HappyHorse**、Ace Logo 和创建/查询两个动作。
 
 ![官方文档中的安装弹窗，仅作界面参考](docs/screenshots/install-piece.png)
 
